@@ -39,7 +39,7 @@ A simple, responsive, and visually appealing weather app that provides current w
 
 ## Live Demo
 
-Experience the application in action. Click [here](https://drive.google.com/file/d/1Dco4tWvlLf_tK9552HxnN8Aai3fVHCde/view?usp=drivesdk) to view the live demo.
+Experience the application in action. Click [here](https://drive.google.com/file/d/1Dco4tWvlLf_tK9552HxnN8Aai3fVHCde/view?usp=drivesdk) inother to view the live demo.
 
 ## Usage
 
