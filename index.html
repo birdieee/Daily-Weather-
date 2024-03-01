@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>WeatherAura</title>
+  </head>
+  <body>
+    <header id="intro">
+      <img
+        src="./Assets/weather-background.png"
+        alt="Cover Image"
+        class="cover-image"
+      />
+      <h1>WeatherAura</h1>
+      <p>
+        Your Personal Weather Concierge: Sunny, Rainy, or Snowy, Know Before You
+        Go!
+      </p>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+      </nav>
+      <a href="#app" class="btn">Try the App</a>
+    </header>
+
+    <section id="features">
+      <h2>Explore Our Cutting-Edge Features</h2>
+      <div class="container">
+        <!-- Feature 1 -->
+        <div class="feature-item">
+          <img src="path-to-your-image-1.jpg" alt="Real-time Weather Updates" />
+          <h3>Real-time Weather Updates</h3>
+          <p>
+            Get the latest weather information as it happens, with real-time
+            updates for any location you choose.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-item">
+          <img src="path-to-your-image-2.jpg" alt="Detailed Forecasts" />
+          <h3>Detailed Forecasts</h3>
+          <p>
+            Access detailed hourly and weekly forecasts, so you can plan ahead
+            with confidence.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-item">
+          <img src="path-to-your-image-3.jpg" alt="Weather Alerts" />
+          <h3>Weather Alerts</h3>
+          <p>
+            Stay safe with severe weather alerts and notifications sent directly
+            to your device.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About WeatherAura</h2>
+      <p>
+        WeatherAura was born from the simple need for better, more reliable
+        weather forecasts. As two tech enthusiasts with a passion for the
+        outdoors, we wanted to create a weather app that not only serves
+        accurate data but also connects users with the environment. This project
+        is a culmination of our learning and experiences at Holberton School,
+        and we're excited to share it with you.
+      </p>
+      <p>
+        <a href="https://www.holbertonschool.com" target="_blank"
+          >Learn more about Holberton School.</a
+        >
+      </p>
+      <div class="team-links">
+        <h3>Our Team</h3>
+        <div class="team-member">
+          <h4>Adesanya Ibukunoluwa</h4>
+
+          <a href="https://www.linkedin.com/in/paulkelvin/" target="_blank"
+            >LinkedIn</a
+          >
+          | <a href="https://github.com/Paulkelvin" target="_blank">GitHub</a> |
+          <a href="https://twitter.com/Paulluskelvin_" target="_blank"
+            >Twitter</a
+          >
+        </div>
+
+        <div class="team-member">
+          <h4>Lola Simbiat</h4>
+
+          <a
+            href="https://www.linkedin.com/in/simbiat-lola-aciarb-a64248238/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          | <a href="https://github.com/birdieee" target="_blank">GitHub</a> |
+          <a href="#" target="_blank">Twitter</a>
+        </div>
+      </div>
+      <p>
+        Dive into our code on the
+        <a
+          href="https://github.com/Paulkelvin/WEATHER-APP_ALX_PROJECTMVP"
+          target="_blank"
+          >GitHub repository</a
+        >.
+      </p>
+    </section>
+
+    <div id="app">
+      <h1>Weather Forecast</h1>
+      <p>Enter a city below to get the current weather conditions.</p>
+      <input type="text" id="cityInput" placeholder="Enter city name..." />
+      <button onclick="getWeather()">Search</button>
+      <div class="weather-info">
+        <h2 id="cityName"></h2>
+        <h3>
+          <i class="fas fa-thermometer-half"></i> <span id="temperature"></span>
+        </h3>
+        <p id="description"></p>
+        <i id="weatherIcon" class="fas"></i>
+        <p><i class="fas fa-tint"></i> <span id="humidity"></span></p>
+        <p><i class="fas fa-wind"></i> <span id="windSpeed"></span></p>
+      </div>
+      <div class="spinner" id="loadingSpinner"></div>
+    </div>
+    <div class="background-animation"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

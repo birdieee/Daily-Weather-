@@ -1,0 +1,289 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9f7fa;
+  margin: 0;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+#app {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5rem 0;
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.weather-info {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.weather-info.visible {
+  opacity: 1;
+  display: block;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+#weatherIcon {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.background-animation {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  animation: moveBackground 10s infinite alternate;
+}
+
+@keyframes moveBackground {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-10%);
+  }
+}
+
+input[type="text"] {
+  display: block;
+
+  padding: 8px 10px;
+  margin: 15px auto;
+  border: 2px solid #007bff;
+  border-radius: 50px;
+  font-size: 18px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #0056b3;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.spinner {
+  border: 8px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 8px solid #007bff;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.fa-thermometer-half {
+  color: #ffa500;
+}
+
+.fa-tint {
+  color: #1e90ff;
+}
+
+.fa-wind {
+  color: #808080;
+}
+
+#temperature {
+  font-size: 6rem;
+  display: block;
+  margin: auto;
+}
+
+#intro {
+  position: relative;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+
+#intro img.cover-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Place the image behind the text */
+}
+
+#intro h1 {
+  font-size: 2.5rem;
+  color: #333;
+  z-index: 2;
+}
+
+#intro p {
+  font-size: 1.2rem;
+  color: #333;
+  z-index: 2;
+}
+
+#intro nav a {
+  color: #2a52be;
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#intro .btn {
+  display: inline-block;
+  margin-top: 20px;
+  color: #2a52be;
+  z-index: 2;
+}
+
+#features,
+#about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature,
+.team-member {
+  margin-bottom: 30px;
+}
+
+#features {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f9f9f9; /* Light grey background */
+  position: relative; /* Add position relative */
+  z-index: 1; /* Lower z-index than the intro */
+}
+
+#features h2 {
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  flex-basis: 30%;
+  margin: 10px;
+  padding: 20px;
+  background: #ffffff; /* White background for each feature */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.feature-item h3 {
+  color: #007bff; /* Blue color for the feature name */
+}
+
+.feature-item p {
+  color: #333; /* Dark grey color for the text */
+}
+
+/* about section */
+
+#about {
+  background: #ffffff;
+  color: #333;
+  padding: 50px 20px;
+  line-height: 1.6;
+}
+
+#about h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#about h3 {
+  color: #333;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.team-links {
+  margin-top: 30px;
+}
+
+.team-member {
+  margin-bottom: 20px;
+}
+
+.team-member h4 {
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.team-member p {
+  color: #555;
+}
+
+.team-member a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.team-member a:hover {
+  text-decoration: underline;
+}
