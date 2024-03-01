@@ -61,7 +61,7 @@ One of the primary challenges we faced was integrating the OpenWeatherMap API to
 
 ## Future Improvements
 
-For future iterations of WeatherAura, we plan to:
+For future iterations of Daily-Weather-, we plan to:
 
 - Introduce a feature to provide weather forecasts for upcoming days, not just the current day.
 - Implement a map-based interface to allow users to select cities directly from a map.
@@ -75,7 +75,7 @@ For future iterations of WeatherAura, we plan to:
 
 ## Personal Journey
 
-This project is a culmination of my love for technology and nature. I've always been fascinated by how technology can enhance our daily lives, and as an avid hiker, I've often found myself at the mercy of unpredictable weather. This led me to create WeatherAura – a tool to help myself and others plan better and connect more deeply with nature.
+This project is a culmination of my love for technology and nature. I've always been fascinated by how technology can enhance our daily lives, and as an avid hiker, I've often found myself at the mercy of unpredictable weather. This led me to create Daily-Weather- a tool to help myself and others plan better and connect more deeply with nature.
 
 ## Overcoming Technical Challenges
 
@@ -83,7 +83,7 @@ One of the most significant hurdles was integrating the OpenWeatherMap API effic
 
 ## Development Journey
 
-The development of WeatherAura spanned several weeks, beginning with a basic prototype focusing solely on functionality. As the weeks progressed, I incorporated more features and focused on the responsive design, ensuring a seamless experience across various devices.
+The development of Daily-Weather- spanned several weeks, beginning with a basic prototype focusing solely on functionality. As the weeks progressed, I incorporated more features and focused on the responsive design, ensuring a seamless experience across various devices.
 
 ## Learning Curve
 
@@ -96,7 +96,7 @@ For the next iteration, I plan to integrate a feature for weather forecasting, a
 ## Visuals and Demos
 
 ![Main Interface] (#https://github.com/birdieee/Daily-Weather-.git))
-_A glimpse of the WeatherAura interface on a desktop._
+_A glimpse of the Daily-Weather- interface on a desktop._
 
 ![Responsive Design](
 _Daily-Weather-'s responsive design adapting to a mobile device._
