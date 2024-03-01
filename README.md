@@ -1,6 +1,6 @@
 # Daily-Weather - ALX Final Project
 
-A simple, responsive, and visually appealing weather app that provides current weather details for any city in the world. This project was created as a part of the ALX program, focusing on delivering a minimal viable product (MVP) with a clean and user-friendly interface.
+A simple, responsive, and visually appealing weather app that provides current weather details for any city in the world. This project was created as a part of the ALX Final Project requirement.
 
 ## Table of Contents
 
@@ -27,8 +27,7 @@ A simple, responsive, and visually appealing weather app that provides current w
 ## Technologies Used
 
 - HTML5
-- CSS3
-- JavaScript
+- 
 - OpenWeatherMap API
 - FontAwesome Icons
 
@@ -72,7 +71,7 @@ For future iterations of WeatherAura, we plan to:
 
 ## Screenshots
 
-![Screenshot of Weather App](#https://github.com/Paulkelvin/WEATHER-APP_ALX_PROJECTMVP/blob/main/Screenshot_20231102_123226_Chrome.jpg)
+![Screenshot of Weather App](#github.com/birdieee/Daily-Weather-.git/blob/main/Screenshot_20231102_123226_Chrome.jpg)
 
 ## Personal Journey
 
