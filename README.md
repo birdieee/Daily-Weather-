@@ -103,7 +103,7 @@ _Daily-Weather-'s responsive design adapting to a mobile device._
 
 ## Reflection
 
-As I wrap up this project, I feel a profound sense of accomplishment. WeatherAura is not just a testament to my technical skills but also a reflection of my passion and resilience. It symbolizes the marriage of my two loves – technology and the great outdoors.
+As I wrap up this project, I feel a profound sense of accomplishment. Daily-Weather- is not just a testament to my technical skills but also a reflection of my passion and resilience. It symbolizes the marriage of my two loves – technology and the great outdoors.
 
 ## Related Projects
 
