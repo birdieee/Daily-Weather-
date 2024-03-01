@@ -1,4 +1,4 @@
-# Weather App - ALX MVP
+# Daily-Weather - ALX Final Project
 
 A simple, responsive, and visually appealing weather app that provides current weather details for any city in the world. This project was created as a part of the ALX program, focusing on delivering a minimal viable product (MVP) with a clean and user-friendly interface.
 
@@ -54,7 +54,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## Project Inspiration
 
-WeatherAura was born from the simple need for better, more reliable weather forecasts. As two tech enthusiasts with a passion for the outdoors, we recognized the importance of accurate weather data for planning outdoor activities. Our aim was to create a weather app that not only delivers precise and timely weather information but also helps users feel a deeper connection with their environment. This project represents not just a functional tool, but our commitment to blending technology with the appreciation of nature.
+Daily-Weather was born from the simple need for better, more reliable weather forecasts. As two tech enthusiasts with a passion for the outdoors, we recognized the importance of accurate weather data for planning outdoor activities. Our aim was to create a weather app that not only delivers precise and timely weather information but also helps users feel a deeper connection with their environment. This project represents not just a functional tool, but our commitment to blending technology with the appreciation of nature.
 
 ## Challenges Faced
 
@@ -96,11 +96,11 @@ For the next iteration, I plan to integrate a feature for weather forecasting, a
 
 ## Visuals and Demos
 
-![Main Interface](#https://github.com/Paulkelvin/WEATHER-APP_ALX_PROJECTMVP/blob/main/weatherAuraDesktop.PNG)
+![Main Interface] (#https://github.com/birdieee/Daily-Weather-.git))
 _A glimpse of the WeatherAura interface on a desktop._
 
-![Responsive Design](#https://github.com/Paulkelvin/WEATHER-APP_ALX_PROJECTMVP/blob/main/Screenshot_20231102_123226_Chrome.jpg)
-_WeatherAura's responsive design adapting to a mobile device._
+![Responsive Design](
+_Daily-Weather-'s responsive design adapting to a mobile device._
 
 ## Reflection
 
