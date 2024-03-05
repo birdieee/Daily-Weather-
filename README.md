@@ -27,7 +27,6 @@ A simple, responsive, and visually appealing weather app that provides current w
 ## Technologies Used
 
 - HTML5
-- 
 - OpenWeatherMap API
 - FontAwesome Icons
 
